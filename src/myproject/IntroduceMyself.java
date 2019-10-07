@@ -10,6 +10,7 @@ package myproject;
  */
 public class IntroduceMyself {
 
+
 	/**
 	 * @param args
 	 */
@@ -220,66 +221,271 @@ public class IntroduceMyself {
 //		} else {
 //			System.out.println("xはyより小さい");
 //		}
+//
+//
+//		int flg = 0;
+//
+//		for (int i =  0; i < 100; i++) {
+//
+//			System.out.println("祝日を知りたい月を入力してください");
+//
+//			java.util.Scanner sc = new java.util.Scanner(System.in);
+//			String Line = sc.nextLine();
+//			int linenum = Integer.parseInt(Line);
+//
+//			switch (linenum) {
+//			case 1:
+//				System.out.println ("1月　元日、成人の日");
+//				break;
+//			case 2:
+//				System.out.println ("2月　建国記念の日");
+//				break;
+//			case 3:
+//				System.out.println ("3月　春分の日");
+//				break;
+//			case 4:
+//				System.out.println ("4月　昭和の日");
+//				break;
+//			case 5:
+//				System.out.println ("5月　憲法記念日、みどりの日、こどもの日");
+//				break;
+//			case 6:
+//				break;
+//			case 7:
+//				System.out.println ("7月　海の日");
+//				break;
+//			case 8:
+//				break;
+//			case 9:
+//				System.out.println ("9月　敬老の日、秋分の日");
+//				break;
+//			case 10:
+//				System.out.println ("10月　体育の日");
+//				break;
+//			case 11:
+//				System.out.println ("11月　文化の日、勤労感謝の日");
+//				break;
+//			case 12:
+//				System.out.println ("12月　天皇誕生日");
+//				break;
+//			default:
+//				System.out.println("エラーです");
+//				break;
+//			}
+//			if ((linenum >= 1) && (linenum <=12)) {
+//				flg = 1;
+//			}
+//
+//			if (flg== 1) {
+//				break;
+//			}
+//
+//		}
+//
+////		for(int k = 1; k < 9; k++) {
+////			int pro =  * 3);
+////			System.out.print(pro);
+////		}
+//
+//
+////		for (int l = 1; l < 10; l++ ) {
+////			int pro = (l * 3);
+////			System.out.print(pro);
+//
+////		for (int l = 1; l < 10; l++ ) {
+////			System.out.println(l * 3);
+////
+////
+////		}
+////
+////		System.out.println("整数を10回入力してください。");
+////		int stock = 0;
+////
+////		for (int m = 0; m < 10; m++) {
+////
+////			stock += new java.util.Scanner(System.in).nextInt();
+////		}
+////		System.out.println(stock / 10 + "が平均値です");
+//
+////
+////		System.out.println("整数10回を入力してください");
+////
+////
+////		int max = 0;
+////		int inputnum = 0;
+////
+////		for (int n = 0; n < 10; n++) {
+////			inputnum = new java.util.Scanner(System.in).nextInt();
+////
+////			if (max < inputnum ) {
+////				max = inputnum;
+////			}
+////
+////		}
+////
+////		System.out.println(max);
+//
+//
+//		System.out.println("適当に数値を入力していく");
+//
+//		int hun = 0;
+//		int ref = 0;
+//
+//		for (int l = 0; ; l++) {
+//			hun = new java.util.Scanner(System.in).nextInt();
+//			ref += hun;
+//
+//			if (ref > 100) {
+//				break;
+//			}
+//		}
+//		System.out.println(ref);
+//
+//		int zer = 0;
+//		int sum = 0;
+//		int o = 0;
+//
+//		for ( ; ; o++) {
+//			zer = new java.util.Scanner(System.in).nextInt();
+//			sum += zer;
+//
+//			if (zer == 0) {
+//				break;
+//			}
+//		}
+//
+//		System.out.println(sum / o);
+//
+//
+//		int i = 1;
+//
+//		for (; i < 100 ; i++) {
+//
+//			if ((i % 3 == 0) && (i % 5 == 0)) {
+//				System.out.println("FIZZBUZZ");
+//			} else if (i % 5 == 0) {
+//				System.out.println("BUZZ");
+//			} else if (i % 3 == 0 ) {
+//				System.out.println("FIZZ");
+//			} else {
+//				System.out.println(i);
+//			}
+//		}
+//		int x = 13 + 17;
+//		System.out.print(x);
+//
+//		int x = 13;
+//		int y = 17;
+//		System.out.println("x=" + x + ",y=" + y);
+//
+//		System.out.println(13*17);
+//
+//		int x = 2;
+//		int y = 5;
+//		int z = y;
+//
+//		y = x;
+//		x = z;
+//
+//		System.out.println("x =" + x);
+//		System.out.println("y =" + y);
+
+//
+//		int x = 19;
+//		int y = 23;
+//		int z = x * y;
+//		System.out.println(z);
+//
+//		int x = 3;
+//		int y = 2 * x;
+//		int z = 3 * x;
+//		int a = 4 * x;
+//
+//		c
+//		System.out.println(z);
+//		System.out.println(a);
+//
+//		int x = 5;
+//		int y = x / 2;
+//		int z = x % 2;
+//		System.out.println(y);
+//		System.out.println(z);
+
+//		int x = 2;
+//		int i = 0;
+//
+//		for (i = 0; i < 30 ; i++) {
+//			x++;
+//		}
+//		System.out.println(x);
+
+//		int x = 2;
+//		int i = 0;
+//
+//		for (i = 0; i < 30 ; i++) {
+//			x--;
+//		}
+//		System.out.println(x);
 
 
-		int flg = 0;
+//		int san = 3;
+//
+//
+//		for (int i = 1; i < 10 ; i++) {
+//			System.out.println(san * i);
+//		}
+//
+//
+//		System.out.println("整数を10回入力してください");
+//		int seisu = 0;
+//		int ave = 0;
+//
+//		for (int k = 0; k< 10; k++) {
+//			seisu = new java.util.Scanner(System.in).nextInt();
+//			ave += seisu;
+//		}
+//		System.out.println(ave / 10);
 
-		for (int i =  0; i < 100; i++) {
+		System.out.println("勝ちは1、負けは0を入力してください");
+		int win = 0;
+		int lose = 0;
 
-			System.out.println("祝日を知りたい月を入力してください");
+		for (int i = 0; i < 10 ; i++) {
+			int fight =new java.util.Scanner(System.in).nextInt();
 
-			java.util.Scanner sc = new java.util.Scanner(System.in);
-			String Line = sc.nextLine();
-			int linenum = Integer.parseInt(Line);
+			if (fight == 1) {
+				win++;
+			}else if (fight == 0) {
+				lose++;
+			}else {
 
-			switch (linenum) {
-			case 1:
-				System.out.println ("1月　元日、成人の日");
-				break;
-			case 2:
-				System.out.println ("2月　建国記念の日");
-				break;
-			case 3:
-				System.out.println ("3月　春分の日");
-				break;
-			case 4:
-				System.out.println ("4月　昭和の日");
-				break;
-			case 5:
-				System.out.println ("5月　憲法記念日、みどりの日、こどもの日");
-				break;
-			case 6:
-				break;
-			case 7:
-				System.out.println ("7月　海の日");
-				break;
-			case 8:
-				break;
-			case 9:
-				System.out.println ("9月　敬老の日、秋分の日");
-				break;
-			case 10:
-				System.out.println ("10月　体育の日");
-				break;
-			case 11:
-				System.out.println ("11月　文化の日、勤労感謝の日");
-				break;
-			case 12:
-				System.out.println ("12月　天皇誕生日");
-				break;
-			default:
-				System.out.println("エラーです");
-				break;
 			}
-			if ((linenum >= 1) && (linenum <=12)) {
-				flg = 1;
-			}
 
-			if (flg== 1) {
-				break;
-			}
+		}
+		System.out.println(win + "回勝ちました");
+		System.out.println(lose + "回負けました");
 
-        }
+
+//		int x = 5;
+//		System.out.println(x / 2);
+//		System.out.println(x % 2);
+
+
+//
+//		int i = 0;
+//		int midium = 0;
+//		int max = 0;
+//		int mini = 0;
+//
+//		for (; i < 10; i++) {
+//			midium = new java.util.Scanner(System.in).nextInt();
+//			max += midium;
+//			mini -= midium;
+//
+//		}
+//		System.out.println(max);
+//		System.out.println(mini);
+
 
 
 	}
